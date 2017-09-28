@@ -1,4 +1,4 @@
-FROM FROM registry.access.redhat.com/rhel7/rhel:7.3
+FROM registry.access.redhat.com/rhel7/rhel:7.3
 MAINTAINER “Kristof Helmrich” <khelmric@gmail.com>
 ENV container docker
 RUN yum -y update; yum clean all
